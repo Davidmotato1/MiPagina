@@ -1,0 +1,94 @@
+/* ---- Configuración general ---- */
+body {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---- Encabezado ---- */
+header {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+/* ---- Párrafo ---- */
+p {
+    font-size: 1.3rem;
+    margin: 20px auto;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+/* ---- Enlace ---- */
+a {
+    text-decoration: none;
+    color: white;
+    background: #ff7e5f;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, background 0.3s;
+}
+
+a:hover {
+    background: #feb47b;
+    transform: scale(1.05);
+}
+
+/* ---- Imagen ---- */
+.image-container {
+    margin-top: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* ---- Botón ---- */
+button {
+    margin-top: 30px;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    background-color: #00c6ff;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, background 0.3s;
+}
+
+button:hover {
+    background-color: #0072ff;
+    transform: scale(1.05);
+}
+
+p {
+    font-size: 1.3rem;
+    margin: 20px auto;
+    max-width: 600px;
+    line-height: 1.6;
+    white-space: pre-line; /* Esta propiedad respeta saltos de línea */
+}
