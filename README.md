@@ -1,3 +1,8 @@
+# Proposito breve sobre mi primera página
+
+## Mi primera pagina web
+Esta página consta de una breve presentación mia como programador y mis primeros pasos para crecer en HTML, CSS y JavaScript. Implementando imagenes, links, textos, diseños, etc.
+
 # Conceptos Básicos de Desarrollo Web
 
 ## 1. ¿Qué es HTML y cuál es su función en la web?
